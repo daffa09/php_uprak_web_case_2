@@ -1,0 +1,83 @@
+body {
+  font-family: sans-serif;
+  background: linear-gradient(rgba(36, 34, 34, 0.5), rgba(192, 178, 178, 0.5)),
+    url(bg.jpg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+
+h1 {
+  margin-top: 20px;
+  text-align: center;
+  font-weight: 300; /*<== Ketebalan Font*/
+  color: white;
+}
+
+.tulisan-judul {
+  color: black;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+li {
+  list-style: none;
+}
+li label {
+  font-size: 11pt;
+}
+
+.kotak-form {
+  width: 500px;
+  height: 300px;
+  background-color: whitesmoke;
+  margin: 50px 10px 50px 680px;
+  padding: 30px 20px;
+  border-radius: 20px;
+}
+
+form {
+  text-align: center;
+}
+
+.form-option {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  font-size: 11pt;
+  margin-top: 50px;
+}
+
+.tombol {
+  background-color: cadetblue;
+  color: white;
+  font-size: 11pt;
+  width: 100%;
+  margin-top: 50px;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+}
+
+.kotak-hasil {
+  width: 500px;
+  height: 300px;
+  background-color: whitesmoke;
+  margin: 50px auto;
+  border-radius: 20px;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+a {
+  background-color: cadetblue;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  font-size: 11pt;
+  width: 100%;
+  border-radius: 3px;
+  padding: 10px 20px;
+}
